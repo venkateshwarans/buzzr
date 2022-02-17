@@ -1,0 +1,47 @@
+@import 'global.css';
+
+
+body {
+  background: var(--bg-green);
+  background-image: auto;
+}
+
+.feather {
+  box-shadow: none;
+  background-color: unset;
+}
+
+/* Pages */
+
+
+.landing-container {
+  gap: 1rem;
+  padding: 4rem;
+  height: calc(65vh - 8rem);
+}
+
+.category-container.grid .card {
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: none;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 9px 0 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 9px 0 0 rgb(0 0 0 / 6%);
+}
+
+.category-container.grid .card:hover {
+  -webkit-box-shadow: 0 5px 0 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 5px 0 0 rgb(0 0 0 / 6%);
+  transform: translateY(2px);
+}
+
+.rules-container.grid .card {
+  height: auto;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: none;
+  border-radius: 1rem;
+}

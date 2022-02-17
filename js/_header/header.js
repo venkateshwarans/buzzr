@@ -12,7 +12,7 @@ headerTemplate.innerHTML = `
       <nav class="ml-auto">
         <ul class="inline-flex">
           <li class="text-xl font-bold"><a href="/">Leader board</a></li>
-          <li class="text-xl font-bold"><a href="/">Rules</a></li>
+          <li class="text-xl font-bold"><a href="/pages/rules.html">Rules</a></li>
           <li class="text-xl font-bold"><a href="/">Login</a></li>
         </ul>
       </nav>
