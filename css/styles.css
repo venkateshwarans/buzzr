@@ -13,7 +13,6 @@ body {
 
 /* Pages */
 
-
 .landing-container {
   gap: 1rem;
   padding: 4rem;
@@ -37,11 +36,20 @@ body {
   transform: translateY(2px);
 }
 
-.rules-container.grid .card {
+.rules-container.grid .card,
+.question-container.grid .feather {
   height: auto;
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
   border: none;
   border-radius: 1rem;
+}
+
+.mcq-option .option-key,
+.option-key {
+  border: 1px solid var(--green-300);
+  padding: 0.5rem 0.75rem;
+  margin-right: 1rem;
+  background-color: var(--bg-green);
 }
