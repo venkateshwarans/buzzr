@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/assets/images/favicon.png" />
+  <title>Buzzr</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/7b62ea7364.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://featherui.netlify.app/css/main.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script src="/js/_header/header.js" type="text/javascript" defer></script>
+  <script src="/js/_footer/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <main>
+    <div class="question-container grid m-auto w-half flex-gap-2">
+      <div class="text-center">
+        <h3>Science</h3>
+      </div>
+      <div class="feather p-8">
+        <div class="flex flex-justify-between mb-8">
+          <p class="text-2xl">Question: <span class="text-success font-bold">2/10</span></p>
+          <p class="text-2xl">Score: <span class="text-success font-bold">5</span></p>
+        </div>
+        <div class="mb-8">
+          <h4>
+            Meatloaf shank cupim chicken salami shoulder short loin shankle sirloin corned beef?
+          </h4>
+        </div>
+        <div class="flex flex-column flex-gap-1 mb-16">
+          <div class="input-group">
+            <div class="checkbox">
+              <label class="mcq-option btn flex flex-justify-start flex-items-center" for="checkbox1">
+                <span class="option-key">A</span> Jowl ham hock drumstick short loin
+              </label>
+              <input type="checkbox" name="checkbox1" id="checkbox1">
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="checkbox">
+              <label class="mcq-option btn flex flex-justify-start flex-items-center" for="checkbox1">
+                <span class="option-key">B</span> Jowl ham hock drumstick short loin
+              </label>
+              <input type="checkbox" name="checkbox1" id="checkbox1">
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="checkbox">
+              <label class="mcq-option btn flex flex-justify-start flex-items-center" for="checkbox1">
+                <span class="option-key">C</span> Jowl ham hock drumstick short loin
+              </label>
+              <input type="checkbox" name="checkbox1" id="checkbox1">
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="checkbox">
+              <label class="mcq-option btn flex flex-justify-start flex-items-center" for="checkbox1">
+                <span class="option-key">D</span> Jowl ham hock drumstick short loin
+              </label>
+              <input type="checkbox" name="checkbox1" id="checkbox1">
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-justify-between mt-4">
+          <a href="" class="btn">Back</a>
+          <a href="/pages/results.html" class="btn btn-primary">Next Quiz</a>
+        </div>
+
+      </div>
+      <div class="flex flex-items-center flex-justify-center">
+        <p class="text-xl mr-4 font-bold">Shortcut keys</p>
+        <span class="option-key">A</span>
+        <span class="option-key">B</span>
+        <span class="option-key">C</span>
+        <span class="option-key">D</span>
+      </div>
+    </div>
+  </main>
+
+  <footer-component></footer-component>
+</body>
+
+</html>
